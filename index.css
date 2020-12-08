@@ -17,6 +17,7 @@
   .material-icons {
     margin:0 0.4rem; /* if you need space */
     vertical-align: bottom !important;
+    color: blue;
   }  
 
 body {
@@ -65,7 +66,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: blue;
+    color: lightgray;
+    
   }
 
   .aside-main{
@@ -85,8 +87,9 @@ body {
   }
 
   .main-header {
+    margin-top: 1rem;
     height: 40px;
-    width: 100%;
+    width: 90%;
     background-color: #eeeeee;
     display: flex;
     flex-direction: row;
