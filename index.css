@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  menu {
+    list-style: none;
+  }
+
+  li{
+    padding-top: 1rem;
+  }
+  li:hover{
+    color: blue;
+  }
+
+  .material-icons {
+    margin:0 0.4rem; /* if you need space */
+    vertical-align: bottom !important;
+  }  
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+  header {
+    height: 40px;
+    width: 100%;
+    background-color:lightgray;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 3px 5px #555;
+  }
+  
+  .container {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  aside {
+    width: 250px;
+    height: 100%;
+    background-color:rgb(43, 43, 43);
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aside-header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+  }
+
+  .aside-main{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  
+  main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-header {
+    height: 40px;
+    width: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    box-shadow: 3px 3px 5px #555;
+    transition: 0.3s;
+  }
+  .main-header:hover {
+    box-shadow: 6px 6px 10px #555;
+    transition: 0.3s;
+  }
+  .main-body {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-footer {
+    align-items: center;
+  }  
+
+  .card {
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    box-shadow: 3px 3px 5px #555;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 6px 6px 10px #555;
+  }
+  
+  footer {
+    height: 40px;
+    width: 100%;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
